@@ -8,7 +8,7 @@ services:
   web:
     
     # Set up the web server according to the Dockerfile inside the api/ folder
-    build: flask-app/
+    build: flask-app
     
     # connect the src folder in on the host machine to the code folder in the container. 
     # note that the code folder in contaier is the working directory (see DockerFile).
@@ -39,7 +39,7 @@ services:
 
     ports:
       # mapping host port 3200 to container port 3306
-      - 3200:3306
+      - 3306:3306
 
     restart: unless-stopped
     
@@ -59,6 +59,6 @@ services:
 
 secrets:
   secret_db_pw:
-    file: ./secrets/db_password.txt
+    file: secrets/db_password.txt
   secret_db_root_pw:
-    file: ./secrets/db_root_password.txt
+    file: secrets/db_root_password.txt
