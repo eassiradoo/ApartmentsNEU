@@ -22,8 +22,7 @@ This repo contains a boilerplate setup for spinning up 2 docker containers:
 
 
 
-
-# ApartmentsNEU is an online application used for students, advertisers, and realtors to look for apartments, post available apartments, and view the market, respectively. Users who are looking for a roommate or have an empty living space to fill out a form and connect to other users who are searching for a place to live through an expanding database of users. Users who are searching for a place to live can then filter through various inputs and contact those whose available space matches their needs. Realtors can observe general real estate rent trends for apartments, viewing specific details about the size and amenities of the living spaces.
+ApartmentsNEU is an online application used for students, advertisers, and realtors to look for apartments, post available apartments, and view the market, respectively. Users who are looking for a roommate or have an empty living space to fill out a form and connect to other users who are searching for a place to live through an expanding database of users. Users who are searching for a place to live can then filter through various inputs and contact those whose available space matches their needs. Realtors can observe general real estate rent trends for apartments, viewing specific details about the size and amenities of the living spaces.
 
 This application utilizes bootstrap, MySQL, flask, and python to produce a comprehensive system.
 
